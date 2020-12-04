@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "WebPersonal"
+    }
+  },
+  "defaultProject": "WebPersonal",
+  "cli": {
+    "analytics": false
+  }
 }
