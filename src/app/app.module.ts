@@ -1,16 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
-//RUTAS
-import { APP_ROUTING } from './app.routes';
-
-
-//SERVICIOS
-
-
-
-//COMPONENTS
 import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -27,11 +17,10 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     PortadaComponent,
     AcercaDeComponent,
     PortafolioComponent,
-    ContactoComponent,
+    ContactoComponent
   ],
   imports: [
-    BrowserModule,
-    APP_ROUTING
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

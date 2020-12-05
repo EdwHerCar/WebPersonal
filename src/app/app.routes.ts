@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 import { RouterModule, Routes } from "@angular/router";
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
@@ -14,4 +15,9 @@ const APP_ROUTES: Routes=[
 ];
 
 export const APP_ROUTING = RouterModule.forRoot(APP_ROUTES);
+
+
+
+
+
 
